@@ -1,0 +1,105 @@
+#productSearch {
+    float: right;
+    margin: -40px 23px 15px 0;
+}
+
+.table-settings {
+    width: calc(100% - 20px);
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 13px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
+}
+
+.table-settings thead tr {
+    background-color: #002C6A;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table-settings th,
+.table-settings td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-settings tbody tr {
+    border-bottom: 1px solid #FFF;
+}
+
+.table-settings tbody tr:nth-of-type(even) {
+    background-color: #eee;
+}
+
+.table-settings tbody tr:last-of-type {
+    border-bottom: 1px solid #002C6A;
+}
+
+.table-settings tbody tr:hover {
+    background-color: #EEE;
+}
+
+.wrap {
+    width: calc(100% - 20px);
+    margin: 20px 0 30px 0;
+    padding: 20px 0 10px 0;
+    border-bottom: 1px solid #DDD;
+}
+
+.wrap h2 {
+    color: #1d2327;
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+
+.form-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-table th {
+    font-weight: 600;
+    padding: 31px 20px 0 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #e0e0e0;
+    color: #333;
+}
+
+.form-table td {
+    padding: 15px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.form-table td input[type="text"],
+.form-table td select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.form-table td input[type="text"]:focus,
+.form-table td select:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 2px rgba(0, 115, 170, 0.7);
+}
+
+.form-table .submit .button-primary {
+    background-color: #0073aa;
+    border-color: #0071a1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-table .submit .button-primary:hover,
+.form-table .submit .button-primary:focus {
+    background-color: #005177;
+}
